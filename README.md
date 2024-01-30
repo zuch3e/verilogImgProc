@@ -6,4 +6,4 @@ To achieve this i've used an always block which is triggered by the positive clo
 
 In the second always block that is triggered by the change of the state I have implemented a Finite State Machine in which each state describes a step in the process of applying said filters . Each state is corelated with a possible action done in that state cycle ( which in fact is a positive clock cycle ).
 
-For indepth information please check the [README](https://github.com/zuch3e/verilogImgProc/blob/main/README.pdf) and the [code comments](https://github.com/zuch3e/verilogImgProc/blob/main/process.v).
+For more in depth information please check the [README](https://github.com/zuch3e/verilogImgProc/blob/main/README.pdf) and the [code comments](https://github.com/zuch3e/verilogImgProc/blob/main/process.v).
